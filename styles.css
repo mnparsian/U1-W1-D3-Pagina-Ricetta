@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-banner {
+  background-color: #f9e5c3;
+  padding: 10px;
+  font-size: 14px;
+  color: #a18855;
+  font-weight: bold;
+  border-top: #fbc559;
+  border-top-style: solid;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.video-section {
+  text-align: center;
+}
+
+.featured {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.featured span {
+  font-weight: bold;
+  color: #cc5430;
+}
+
+.featured a {
+  color: #2775b6;
+  text-decoration: none;
+}
+
+.ingredients-section {
+  margin-bottom: 20px;
+}
+
+.ingredients-section h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.ingredients-section ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.ingredients-section ul li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #2775b6;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
